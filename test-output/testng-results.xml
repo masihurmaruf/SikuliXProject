@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51694" started-at="2015-12-06T14:40:36Z" finished-at="2015-12-06T14:41:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51694" started-at="2015-12-06T14:40:36Z" finished-at="2015-12-06T14:41:27Z">
+      <class name="com.infix.SikuiliHeatclinicTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.infix.SikuiliHeatclinicTest@5b464ce8]" name="beforeMethod" is-config="true" duration-ms="20466" started-at="2015-12-06T09:40:36Z" finished-at="2015-12-06T09:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.infix.SikuiliHeatclinicTest@5b464ce8]" name="f" duration-ms="24936" started-at="2015-12-06T09:40:56Z" finished-at="2015-12-06T09:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.infix.SikuiliHeatclinicTest@5b464ce8]" name="afterMethod" is-config="true" duration-ms="6248" started-at="2015-12-06T09:41:21Z" finished-at="2015-12-06T09:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.infix.SikuiliHeatclinicTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
