@@ -41,18 +41,6 @@ public class SikuiliHeatclinicTest {
   }
   @Test
   public void f() throws FindFailed {
-//	  WebElement loginLink = driver.findElement(By.xpath("//*[@id='cart_info']//span[text() = 'Login']"));
-//	  loginLink.click();
-	  
-//	  screen.wait("EmailTextBox_Win.png");
-//	  screen.mouseMove("EmailTextBox_Win.png");
-//	  screen.type("EmailTextBox_Win.png", "marufrahman1349@gmail.com");
-//	  
-//	  screen.wait("PasswordTextBox_Win.png");
-//	  screen.mouseMove("PasswordTextBox_Win.png");
-//	  screen.type("PasswordTextBox_Win.png", "maruf");
-//	  
-//	  screen.click("LoginButton_Win.png");
 	  
 	  JavascriptExecutor jse = (JavascriptExecutor)driver;
 	  jse.executeScript("window.scrollBy(0,450)", "");
@@ -71,14 +59,22 @@ public class SikuiliHeatclinicTest {
 	  screen.wait("Chk_win.png");
 	  screen.mouseMove("Chk_win.png");
 	  screen.click("Chk_win.png");
+  
+  }
+  @Test
+  public void g() throws FindFailed {
+	  WebElement loginLink = driver.findElement(By.xpath("//*[@id='cart_info']//span[text() = 'Login']"));
+	  loginLink.click();
 	  
+	  screen.wait("EmailTextBox_Win.png");
+	  screen.mouseMove("EmailTextBox_Win.png");
+	  screen.type("EmailTextBox_Win.png", "marufrahman1349@gmail.com");
 	  
+	  screen.wait("PasswordTextBox_Win.png");
+	  screen.mouseMove("PasswordTextBox_Win.png");
+	  screen.type("PasswordTextBox_Win.png", "maruf");
 	  
-	  
-	  
-	  
-	  
-	  
+	  screen.click("LoginButton_Win.png");
   }
 
   @AfterMethod
